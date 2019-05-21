@@ -17,12 +17,12 @@ import net.aksingh.owmjapis.model.CurrentWeather;
  */
 public class WeatherMain {
     
-    final static String myPhoneNumber = "+447900982740";
+    final static String myPhoneNumber = "########";
     
      public static void main(String[] args)
             throws APIException, UnauthorizedException, GeneralException {
          MessageAPI message = new MessageAPI();
-         OWM myOwm = new OWM("0e47838bfbc2fe81613c58a14decb7c1");
+         OWM myOwm = new OWM("#########");
          CurrentWeather myCwd = myOwm.currentWeatherByCityName("London");
          WeatherAPI weather = new WeatherAPI(myOwm, myCwd);
          message.getMessaging(myPhoneNumber, weather.weatherMessage());  
