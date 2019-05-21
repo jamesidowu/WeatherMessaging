@@ -31,7 +31,7 @@ public class MessageAPI {
     
     public void getMessaging(String mobileNumber, String weatherNotification) throws UnauthorizedException, GeneralException {
      // declaring object of "OWM" class
-        this.messageBirdService = new MessageBirdServiceImpl("4IO33I2LHI3WIL0ah1XExp8iy");
+        this.messageBirdService = new MessageBirdServiceImpl("#######");
     // Add the service to the client
         this.messageBirdClient  = new MessageBirdClient(messageBirdService);
     // convert String number into acceptable format
