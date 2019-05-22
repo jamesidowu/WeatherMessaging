@@ -1,6 +1,6 @@
 # WeatherMessaging
 Weather notification service. Using APIs to send Weather information to mobile phone.
-Using the Object Oriented Programming style.
+A maven-built project using the Object Oriented Programming style.
 
 This was a lightweight project for myself using Application Programming Interfaces.
 
